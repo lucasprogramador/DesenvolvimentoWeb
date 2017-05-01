@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Here</title>
+	<link rel="stylesheet" type="text/css" href="resources/css/bootstrap.min.css">
+</head>
+<body>
+
+
+	<div class="row">
+		<form id="produtoUm" method="POST" class="col-md-4">
+			<label>Produto 1</label> <br>
+			<label>[R$ 10.00]</label> <br>
+			<label>Descrição</label> <br>			
+			<input type="number" name="quantidade"> <br>
+			<input name="codigo" value="01" hidden="true">
+			<input name="nome" value="produto1" hidden="true">
+			<input name="preco" value="10.00" hidden="true">
+			<input name="descricao" value="descricao" hidden="true">
+			
+			<input type="submit" value="Adicionar" />
+		</form>
+		
+		<form id="produtoDois" method="POST" class="col-md-4">
+			<label>Produto 2</label> <br>
+			<label>[R$ 20.00]</label> <br>
+			<label>Descrição</label> <br>
+			<input type="number" name="quantidade" > <br>
+			<input name="codigo" value="02" hidden="true">
+			<input name="nome" value="produto2" hidden="true">
+			<input name="preco" value="20.00" hidden="true">
+			<input name="descricao" value="descricao" hidden="true">
+			<input type="submit" value="Adicionar" />
+		</form>
+		
+		<form id="produtoTres" method="POST" class="col-md-4">
+			<label>Produto 3</label> <br>
+			<label>[R$ 30.00]</label> <br>
+			<label>Descrição</label> <br>
+			<input type="number" name="quantidade"> <br>
+			<input name="codigo" value="03" hidden="true">
+			<input name="nome" value="produto3" hidden="true">
+			<input name="preco" value="30.00" hidden="true">
+			<input name="descricao" value="descricao" hidden="true">
+			<input type="submit" value="Adicionar" />
+		</form>
+	</div>
+
+	<div class="modal fade" id="myModal">
+
+		<div class="modal-dialog">
+
+			<div class="modal-content">
+
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal">
+						<span aria-hidden="true">&times;</span>
+					</button>
+					<h4 class="modal-title">Carrinho de Compras</h4>
+				</div>
+
+				<div class="modal-body">
+				 
+				 	<h7 id="resultado">
+				 	</h7>				
+				
+				</div>
+				<!-- /.modal-body -->
+
+				<div class="modal-footer">
+					<p>Essas são suas compras atualmente.</p>
+				</div>
+
+			</div>
+			<!-- /.modal-content -->
+		</div>
+		<!-- /.modal-dialog -->
+	</div>
+	<!-- /.modal -->
+
+	<button type="button" class="btn btn-primary btn-lg"
+		data-toggle="modal" data-target="#myModal">Carrinho</button>
+
+	<script type="text/javascript" src="resources/js/jquery.min.js"></script>
+	<script type="text/javascript" src="resources/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="resources/js/produto-script.js"/></script>
+</body>
+</html>
+
+
+
+
+
+
+
