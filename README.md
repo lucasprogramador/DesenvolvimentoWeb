@@ -55,7 +55,7 @@
             Obter dois números em um formulário Web e após a submissão deste formulário, exibir a soma e a subtração dos números.
             Após o clique em um link, exibir uma sugestão de seis números não repetidos entre 1 e 60 para a mega-sena. Esses números devem ser gerados em um Servlet e retornados para exibição no browser do cliente.
 
-#           Lista de Exercícios 06  (prazo final para entrega: 01/05/2017 - segunda-feira)
+#           Lista de Exercícios 06 
 
         OBS: Todas as questões desta lista devem ser resolvidas em uma única aplicação Web. Desse modo, você deve enviar um único arquivo WAR contendo toda a aplicação com as resoluções de todas as questões da lista e também com o código fonte.  A geração do arquivo WAR pode ser realizada através da opção de Exportação do Eclipse.
         Crie uma única aplicação Web com as funcionalidades abaixo. A página principal da aplicação deverá conter um menu com links para as demais funcionalidades.
