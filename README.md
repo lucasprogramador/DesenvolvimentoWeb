@@ -1,6 +1,6 @@
 
 
-#       Lista de Exercícios 01:
+#       Lista de Exercícios 01
         Crie uma página HTML que use o texto do seguinte documento. 
             a) A página HTML criada deve conter pelo menos 5 elementos em bloco e 5 elementos em linha.
             b) A página HTML deve conter pelo menos uma imagem relacionada ao seu conteúdo.
