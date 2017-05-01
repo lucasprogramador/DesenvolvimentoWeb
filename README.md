@@ -32,7 +32,7 @@
             A tabela deve destacar a linha sobre a qual o ponteiro do mouse passa por cima.
             O formulário deve aparecer em uma modal, após o clique de um botão para que ele apareça.
             
-#       Lista de Exercícios 04  (prazo final para entrega: 10/04/2017 - segunda-feira)
+#       Lista de Exercícios 04  
         OBS: Esta lista exercita a autonomia do aluno para entender e usar o jQuery em algumas questões, mesmo que o jQuery ainda não tenha sido apresentado em detalhe durante as aulas.
         Em todas as questões defina eventos usando Javascript e não diretamente no código HTML.
         Crie uma página HTML com um formulário para obter preço e quantidade. Exibir em um elemento input, desabilitado para edição, o valor total (preço x quantidade) dinamicamente quando preço ou quantidade forem alterados. Usar JavaScript puro (sem jQuery).
@@ -44,3 +44,26 @@
             Dica: altere a posição (x, y) do caractere texto de acordo com a mudança da posição (x, y) do ponteiro do mouse na tela.
         Crie a mesma funcionalidade da Questão 6 em uma nova página HTML, usando o jQuery.
         Crie uma página HTML de notícias com poucas notícias (no minimo 3 notícias) e um botão "Mais notícias", que ao ser clicado exibe mais notícias, que não eram visualizadas antes. Usar o jQuery.
+
+#           Lista de Exercícios 05 
+
+        OBS: Todas as questões desta lista devem ser resolvidas em uma única aplicação Web. Desse modo, você deve enviar um único arquivo WAR contendo toda a aplicação com as resoluções de todas as questões da lista e também com o código fonte.  A geração do arquivo WAR pode ser realizada através da opção de Exportação do Eclipse.
+
+        Crie uma única aplicação Web com as funcionalidades abaixo. A página principal da aplicação deverá conter um menu com links para as demais funcionalidades. Os resultados das submissões de formulários devem ocorrer através de Servlets. Crie quantos Servlets você julgar necessário para resolver os itens abaixo.
+
+            Em uma página HTML, calcular e exibir na tela: (1) o valor do Índice de Massa Corporal (IMC) e (2) sua classificação, fazendo uso de entrada de dados (massa e altura de uma pessoa) em formulário HTML e cálculo do resultado do IMC via Servlet (sem Javascript). A submissão do formulário leva a apresentação do resultado em uma nova página gerada pelo Servlet.
+            Obter dois números em um formulário Web e após a submissão deste formulário, exibir a soma e a subtração dos números.
+            Após o clique em um link, exibir uma sugestão de seis números não repetidos entre 1 e 60 para a mega-sena. Esses números devem ser gerados em um Servlet e retornados para exibição no browser do cliente.
+
+#           Lista de Exercícios 06  (prazo final para entrega: 01/05/2017 - segunda-feira)
+
+        OBS: Todas as questões desta lista devem ser resolvidas em uma única aplicação Web. Desse modo, você deve enviar um único arquivo WAR contendo toda a aplicação com as resoluções de todas as questões da lista e também com o código fonte.  A geração do arquivo WAR pode ser realizada através da opção de Exportação do Eclipse.
+        Crie uma única aplicação Web com as funcionalidades abaixo. A página principal da aplicação deverá conter um menu com links para as demais funcionalidades.
+
+            Crie uma classe Produto com codigo, nome, descrição e quantidade do produto.
+            Crie uma página html que mostre alguns produtos com seus respectivos preços e que permita a adição deles em um carrinho de compras (lista de produtos) que deve ser armazenado no contexto de sessão ao chamar um servlet específico. 
+                A adição de produtos deve ser feita através de AJAX ao clicar sobre um link ou botão Adicionar. 
+                Um botão Mostrar Carrinho deve abrir uma janela Modal para mostrar os itens do Carrinho de Compras. 
+                    Um Servlet específico deve retornar os itens do carrinho de compras. 
+                    Este Servlet deve ser chamado via AJAX quando o botão Mostrar Carrinho for clicado para preencher os conteúdos que aparecerão na janela Modal.
+            Crie um servlet para criar um contador e incrementá-lo a cada acesso a este servlet (A página principal da aplicação chama este servlet). O contador deve ser armazenado em um Cookie no cliente e ter a duração de 1 mês. Depois disso, o servlet deve redirecionar o cliente para uma página html capaz de mostrar o valor atual do contador via JavaScript (ver acesso a valores de cookies via Javascript: https://www.w3schools.com/js/js_cookies.asp).            
