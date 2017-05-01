@@ -1,0 +1,11 @@
+body{ background-color: #2f2f2f; /* Black Gray */color: #fff; }
+
+figcaption{ text-align: center; }
+
+.imgborder{ border-radius: 20px; width: 300px; height: 400px;}
+
+.bg-4 { background-color: #474e5d; /* Dark Blue */color: #ffffff;}
+
+footer{ margin-top: 20px;  }
+
+

@@ -1,0 +1,25 @@
+[01] OK
+Crie uma página HTML com um formulário para obter preço e quantidade. 
+Exibir em um elemento input, desabilitado para edição, o valor total (preço x quantidade) dinamicamente quando preço ou quantidade forem alterados. 
+Usar JavaScript puro (sem jQuery).
+
+[02] OK
+Crie a mesma funcionalidade da Questão 1 em uma nova página HTML, através da substituição do elemento <input> por um elemento <output> e SEM o uso de JavaScript. 
+Veja um exemplo de uso do elemento <output> neste link  https://www.w3schools.com/tags/tag_output.asp.  
+
+[03] OK
+Crie uma página HTML para calcular e exibir na tela: 
+(1) o valor do Índice de Massa Corporal (IMC) e (2) sua classificação, fazendo uso de entrada de dados (massa e altura de uma pessoa) em formulário HTML e cálculo dinâmico do resultado do IMC via JavaScript puro (sem jQuery).
+
+[04] OK
+Crie a mesma funcionalidade da Questão 4 em uma nova página HTML, usando o jQuery.
+
+[05] OK
+Crie uma página HTML que possui um caractere texto que segue o movimento do ponteiro do mouse pela tela. Usar JavaScript puro (sem jQuery).
+Dica: altere a posição (x, y) do caractere texto de acordo com a mudança da posição (x, y) do ponteiro do mouse na tela.
+
+[06] OK
+Crie a mesma funcionalidade da Questão 6 em uma nova página HTML, usando o jQuery.
+
+[07]
+Crie uma página HTML de notícias com poucas notícias (no minimo 3 notícias) e um botão "Mais notícias", que ao ser clicado exibe mais notícias, que não eram visualizadas antes. Usar o jQuery.

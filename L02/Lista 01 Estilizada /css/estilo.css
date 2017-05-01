@@ -1,0 +1,105 @@
+html, body, header, section, footer{
+  clear: both;
+}
+
+html, body, header, section{
+  display: block;
+}
+
+header{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgba(0,0,0,0.3);
+}
+
+header h2{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+
+p{
+    word-spacing: 10px;
+    font-style: oblique;
+    line-height: 20px;
+    text-indent: 30px;
+}
+
+input{
+    border-radius: 30px; /* Arredondameto das caixas de texto */
+    padding: 10px;
+}
+
+.borda_titulo{
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    text-align: center;
+}
+
+.container{
+	height: 600px;
+	width: 100%;
+}
+
+#familia_pelho{
+    margin: 0 0 10px 10px;
+    height: 250px;
+    width: 250px;
+    float: right;
+}
+
+#familia_pelho img{
+  width: 250px;
+  height: 200px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+#familia_pelho p{
+    color: white;
+    text-align: center;
+}
+
+#main table{
+  border: solid 1px;
+  height: 400px;
+  width: 400px;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  border-spacing: 0;
+}
+
+#main form{
+  height: 400px;
+  width: 400px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  border-spacing: 0;
+}
+
+footer{
+  clear: both;
+}
+
+footer {
+  
+  bottom: 0;
+  width: 100%;
+  margin-top: 0px;
+  background-color: rgba(0,0,0,0.3);
+}
+
+footer h2{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+footer div{
+   padding-bottom: 0px;
+   margin-bottom: 0px;
+}
