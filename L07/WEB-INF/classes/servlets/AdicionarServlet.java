@@ -34,7 +34,7 @@ public class AdicionarServlet extends HttpServlet {
 			String senha = request.getParameter("desc");
 
 			Tarefa novo = new Tarefa(nome,senha);
-			lista.put(nome, novo);
+			lista.put(novo.getName(), novo);
 
 			for(Tarefa object : lista.values()){
 				msg = "<tr><td>	Nome:  " + object.getName() + "</td></tr>" +
@@ -46,7 +46,6 @@ public class AdicionarServlet extends HttpServlet {
 		} catch (Exception ex) {
 			System.out.println("AdicionarServlet: " + ex);
 		}
-		
 		
 
 	}

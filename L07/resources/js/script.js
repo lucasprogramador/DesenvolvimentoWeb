@@ -1,6 +1,7 @@
 ///// add action script /////
 
 $("#formulario").submit((event)=>{
+
 	var data = $("#formulario").serialize();
 
 	$.post("adicionar", data, (response)=>{
@@ -10,10 +11,30 @@ $("#formulario").submit((event)=>{
 
 });
 
+///// alt action script /////
+$("#confirmacao-button-alterar").click((event)=>{
+	perguntarAlterar();
+});
+
+function perguntarAlterar() {
+	if (confirm('Tem certeza que quer alterar esta tarefa ?')){
+
+		$("#form-alterar").submit((event)=>{
+
+			var data = $("#form-alterar").serialize();
+			
+			$.post("alterar", data, (response)=>{
+				$("#tabela").html(response);
+			});
+
+			event.preventDefault();	
+		});
+	}
+}
 
 ///// delete action script /////
 
-$("#confirmacao-button").click((event)=>{
+$("#confirmacao-button-remover").click((event)=>{
 	perguntar();
 });
 
@@ -32,7 +53,7 @@ function perguntar() {
 	}
 }
 
-// button movement 
+///// button movement /////
 
 $(()=>{
 	$("#adicionar").hide();
@@ -61,5 +82,3 @@ $("#deletar-button").click(()=>{
 	$("#adicionar").hide();
 	$("#alterar").hide();
 });
-
-
