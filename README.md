@@ -34,7 +34,9 @@
             
 #       Lista de Exercícios 04  
         OBS: Esta lista exercita a autonomia do aluno para entender e usar o jQuery em algumas questões, mesmo que o jQuery ainda não tenha sido apresentado em detalhe durante as aulas.
+        
         Em todas as questões defina eventos usando Javascript e não diretamente no código HTML.
+        
         Crie uma página HTML com um formulário para obter preço e quantidade. Exibir em um elemento input, desabilitado para edição, o valor total (preço x quantidade) dinamicamente quando preço ou quantidade forem alterados. Usar JavaScript puro (sem jQuery).
         Crie a mesma funcionalidade da Questão 1 em uma nova página HTML, através da substituição do elemento <input> por um elemento <output>. 
             Veja um exemplo de uso do elemento <output> neste link. Use o evento oninput, mas não diretamente no HTML como no exemplo.  
