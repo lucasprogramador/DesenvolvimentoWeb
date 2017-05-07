@@ -1,19 +1,38 @@
+///// add action script /////
 
-$(()=>{
+$("#formulario").submit((event)=>{
+	var data = $("#formulario").serialize();
 
-	$("#formulario").submit((event)=>{
-		var data = $("#formulario").serialize();
-
-		$.post("adicionar", data, (response)=>{
-			$("#tabela").html(response);
-		});
-		event.preventDefault();	
-
+	$.post("adicionar", data, (response)=>{
+		$("#tabela").html(response);
 	});
-
-
+	event.preventDefault();	
 
 });
+
+
+///// delete action script /////
+
+$("#confirmacao-button").click((event)=>{
+	perguntar();
+});
+
+function perguntar() {
+	if (confirm('Tem certeza que quer excluir esta tarefa ?')){
+
+		$("#form-delete").submit((e)=>{
+			var data = $("#form-delete").serialize();
+
+			$.post("remover", data, (response)=>{
+				$("#tabela").html(response);
+			});
+
+			event.preventDefault();	
+		});
+	}
+}
+
+// button movement 
 
 $(()=>{
 	$("#adicionar").hide();
@@ -42,4 +61,5 @@ $("#deletar-button").click(()=>{
 	$("#adicionar").hide();
 	$("#alterar").hide();
 });
+
 
