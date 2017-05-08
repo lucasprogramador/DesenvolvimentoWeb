@@ -30,19 +30,14 @@ public class ControlerPaginaInicial implements Filter {
 
 			HttpSession session = req.getSession();
 
-			if(session.getAttribute("usr") == "admin"){
-				System.out.println("logado");				
-				
-			}else{
-				System.out.println("nao logado");
+			if(session.getAttribute("usr") == "admin")
+				chain.doFilter(request, response);
+			else				
 				res.sendRedirect("pagina-login.html");
-			}
 
 		} catch (Exception ex) {
 			System.out.println("ControlerPaginaInicial - Filter" + ex);
 			
-		}finally {
-			chain.doFilter(request, response);
 		}
 
 	}

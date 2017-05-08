@@ -18,7 +18,7 @@ $(window).on('load', function () {
 $("#formulario").submit((event)=>{
 
 	var data = $("#formulario").serialize();
-
+	
 	$.post("adicionar", data, (response)=>{
 		$("#tabela").html(response);
 	});

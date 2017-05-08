@@ -17,7 +17,7 @@ public class ControlerLogin extends HttpServlet {
 	protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
 		if(request.getParameter("login").equals("admin") && request.getParameter("senha").equals("teste1234")){
-			request.getSession().invalidate();
+//			request.getSession().invalidate();
 			HttpSession session = request.getSession(true);
 			session.setAttribute("usr", "admin");
 			response.sendRedirect("pagina-inicial.html");
