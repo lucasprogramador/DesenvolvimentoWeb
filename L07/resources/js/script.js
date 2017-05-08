@@ -1,3 +1,18 @@
+///// loading the list /////
+
+
+var atualizar = () => {
+	$.get('atualizar', (data) => {
+		$('#tabela').html(data);
+	});
+};
+
+$(window).on('load', function () {
+	atualizar();
+	event.preventDefault();
+});
+
+
 ///// add action script /////
 
 $("#formulario").submit((event)=>{
