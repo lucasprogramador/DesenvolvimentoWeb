@@ -78,3 +78,10 @@
                 Crie um servlet para logout. Esse servlet deve eliminar a sessão e redirecionar o usuário para a página home da aplicação. A opção de logout deve estar disponível para acesso em todas as páginas da aplicação, caso o usuário esteja logado.
                 Sua aplicação não deve permitir acesso não autorizado às suas funcionalidades, ou seja, deve ter um mecanismo de autorização. Para isso, crie um filtro que force o login, caso o usuário não esteja logado e tente acessar qualquer página que não seja a página de login. 
                 Crie uma lista de tarefas que deve ser armazenada na sessão do usuário logado no sistema. Esta lista deve permitir a inclusão, alteração e remoção de tarefas para cada usuário. 
+                
+#            Lista de Exercícios 08  (prazo final para entrega: 15/05/2017 - segunda-feira)
+Refatore a Lista de Exercícios 05 para que ela possa usar JSP. O Servlet deve continuar gerando os dados, mas sua exibição deve ser feita através de páginas JSP.
+Evite ao máximo o uso de Scriptlets. Quando precisar usar código Java tente fazê-lo em um Servlet que encaminha o resultado para o JSP.
+Use Expression Language (EL) sempre que possível.
+Use em todas as páginas da aplicação um único cabeçalho e um único rodapé que devem ser incluídos (include) no JSP a partir de dois arquivos externos, ou seja, um para o cabeçalho e outro para o rodapé.
+Crie uma página de erro da aplicação. Em caso de qualquer erro HTTP ou de execução, o usuário deve ser redirecionado para a página de erro.
