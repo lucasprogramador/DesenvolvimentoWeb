@@ -84,4 +84,5 @@
         Evite ao máximo o uso de Scriptlets. Quando precisar usar código Java tente fazê-lo em um Servlet que encaminha o resultado para o JSP.
         Use Expression Language (EL) sempre que possível.
         Use em todas as páginas da aplicação um único cabeçalho e um único rodapé que devem ser incluídos (include) no JSP a partir de dois arquivos externos, ou seja, um para o cabeçalho e outro para o rodapé.
-        Crie uma página de erro da aplicação. Em caso de qualquer erro HTTP ou de execução, o usuário deve ser redirecionado para a página de erro.
+        Crie uma página de erro da aplicação. Em caso de qualquer erro HTTP ou de execução, o usuário deve ser redirecionado para a página de erro....
+       
